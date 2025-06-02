@@ -42,7 +42,7 @@ li{
     margin:2%;
 }
 h2{
-    margin-top: 20%;
+    margin-top: 5%;
     position: relative;
 }
 
@@ -57,7 +57,7 @@ h2{
     background-color: rgb(207, 207, 133);
     /* position: relative; */
     /* height: 10%; */
-    margin: 0px;
+    margin: 0;
     width: 100%;
     /* left: -25px; */
 
@@ -99,7 +99,7 @@ h1,p{
     
 }
 #last{
-    margin-top: 10%;
+    margin-top: 15%;
     position: sticky;
     bottom: 0px;
     
@@ -108,7 +108,8 @@ div ul li{
     /* display:inline; */
     width: 20%;
     height: 40px;
-    color:#9485d0
+    color:#9485d0;
+    
     /* background-color: aqua; */
 
 }
@@ -118,9 +119,11 @@ div ul li{
     width: 50px;
     
     
+    
 } 
 div ul{
     display: inline-block;
     padding-top: 10px;
+    
     /* background-color: yellowgreen; */
 }
