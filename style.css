@@ -1,9 +1,12 @@
 *{
-    color:#f0f8ff;
+    color:#266c91;
    margin: 0;
 }
 body{
     background-image:url("images/choco_coffee.jpg"); 
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
     
 }
 
@@ -20,21 +23,20 @@ h2{
    
 }
 
-img{
-    margin:0;
+/* #img{ */
+    /* margin:0;
  width: 100%;
- height: 100%;
- position:absolute;
- top :0;
+ height: 100%; */
+ /* position:absolute; */
+ /* top :0;
  left:0;
  right: 0;
- bottom:0;
+ bottom:0; */
+ /* display:flex;  */
+ /* z-index: -1;
+} */
 
- 
- 
- display:flex; 
- z-index: -1;
-}
+
 li{
     display:inline-block;
     margin:2%;
@@ -67,12 +69,12 @@ h2{
     
 }
 button{
-   color:black;
+   color:rgb(82, 65, 3);
    border-radius: 6px;
    padding: 10px;
    font-size: 20px;
    margin-left: 10%;
-   
+   background-color: aquamarine;
 
 }
 footer{
@@ -82,8 +84,9 @@ footer{
     text-align: center;
     padding: 2%;
     
-    background-color: rgb(186, 135, 73);
+    background-color: rgb(222, 175, 118);
     margin-top: 0; 
+    color: rgb(22, 16, 64);
     
 }
 
@@ -100,5 +103,24 @@ h1,p{
     position: sticky;
     bottom: 0px;
     
+}
+div ul li{
+    /* display:inline; */
+    width: 20%;
+    height: 40px;
+    color:#9485d0
+    /* background-color: aqua; */
+
+}
+ .imag{
+    /* display: inline; */
+    height: 40px;
+    width: 50px;
     
+    
+} 
+div ul{
+    display: inline-block;
+    padding-top: 10px;
+    /* background-color: yellowgreen; */
 }
